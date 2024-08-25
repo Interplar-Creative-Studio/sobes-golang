@@ -1,0 +1,20 @@
+host: 127.0.0.1
+port: 80
+
+db1:
+  host:     127.0.0.1
+  port:     3306
+  type:     mysql
+  user:     root
+  table:    products
+  password:
+  timeout: 5
+
+DB2:
+  host:     127.0.0.1
+  port:     5432
+  type:     postgres
+  user:     user1
+  table:    users
+  password: 12345
+  connection_timeout_seconds: 10

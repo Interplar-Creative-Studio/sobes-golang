@@ -1,0 +1,18 @@
+host: 127.0.0.1
+port: 80
+
+db1:
+  host:     127.0.0.1
+  port:     ${DB1_PORT:-3306}
+  type:     ${DB1_TYPE:-mysql}
+  user:     ${DB1_USER:-root}
+  table:    ${DB1_TABLE:-products}
+  password: ${DB1_PASSWORD}
+
+db2:
+  host:     127.0.0.1
+  port:     ${DB2_PORT:-3306}
+  type:     ${DB2_TYPE:-mysql}
+  user:     ${DB2_USER:-root}
+  table:    ${DB2_TABLE:-products}
+  password: ${DB2_PASSWORD}
